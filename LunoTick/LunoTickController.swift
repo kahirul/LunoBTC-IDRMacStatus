@@ -23,7 +23,7 @@ class LunoTickController: NSObject {
     updateTicker()
   
     timer = Timer.scheduledTimer(
-      timeInterval: 25,
+      timeInterval: 45,
       target: self,
       selector: (#selector(LunoTickController.updateTicker)),
       userInfo: nil,
